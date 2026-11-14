@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Primary SEO Meta Tags -->
+  <title>WellPulse — Public Wellbeing & Minor Illness Care Portal | Symptoms, OTC Medicines, Diet & Recovery</title>
+  <meta name="title" content="WellPulse — Public Wellbeing & Minor Illness Care Portal">
+  <meta name="description" content="Free public health and wellbeing portal. Check your symptoms, find evidence-based OTC medicines, discover what to eat and what NOT to eat during minor illness, and learn essential recovery do's and don'ts.">
+  <meta name="keywords" content="public wellbeing, symptom checker, minor illness, what to eat when sick, foods to avoid when sick, OTC medicines, health remedies, cough cold diet, acid reflux food, headache relief, home health care">
+  <meta name="author" content="WellPulse Public Health Initiative">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#090a0f">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wellpulse.publichealth.org/">
+  <meta property="og:title" content="WellPulse — Public Wellbeing & Minor Illness Care Portal">
+  <meta property="og:description" content="Instant minor illness guidance: symptom analysis, safe OTC medicines, dietary advice (what to eat vs. avoid), and golden recovery rules.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&auto=format&fit=crop&q=80">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="WellPulse — Public Wellbeing & Minor Illness Care Portal">
+  <meta name="twitter:description" content="Free evidence-based symptom analysis, what to eat, what to avoid, OTC medication guidelines, and recovery do's & don'ts.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&auto=format&fit=crop&q=80">
+
+  <!-- Favicon / Web App Manifest -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2250%22 fill=%22%23090a0f%22/><path d=%22M20 50h15l10-25 15 50 10-25h15%22 stroke=%22%230ea5e9%22 stroke-width=%228%22 fill=%22none%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Schema.org Structured Data (JSON-LD) for SEO & Healthcare WebPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MedicalWebPage",
+        "@id": "https://wellpulse.publichealth.org/#webpage",
+        "url": "https://wellpulse.publichealth.org/",
+        "name": "WellPulse - Public Wellbeing & Minor Illness Care Portal",
+        "description": "Comprehensive minor illness triage, evidence-based OTC medicine guidance, sick-day dietary dos and don'ts, and home recovery protocols.",
+        "about": [
+          {
+            "@type": "MedicalCondition",
+            "name": "Common Cold"
+          },
+          {
+            "@type": "MedicalCondition",
+            "name": "Gastroesophageal Reflux"
+          },
+          {
+            "@type": "MedicalCondition",
+            "name": "Tension Headache"
+          },
+          {
+            "@type": "MedicalCondition",
+            "name": "Acute Gastroenteritis"
+          }
+        ],
+        "audience": {
+          "@type": "PeopleAudience",
+          "audienceType": "General Public"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://wellpulse.publichealth.org/#website",
+        "url": "https://wellpulse.publichealth.org/",
+        "name": "WellPulse",
+        "description": "Public Wellbeing & Minor Illness Recovery Platform",
+        "publisher": {
+          "@type": "Organization",
+          "name": "WellPulse Public Wellbeing Initiative"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://wellpulse.publichealth.org/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What should I eat when experiencing a cold or fever?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Consume warm bone broths, citrus fruits rich in Vitamin C, ginger and honey herbal teas, and gentle carbohydrates like oatmeal with bananas. Avoid heavy dairy, deep-fried foods, and alcohol."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When does a minor illness require emergency medical care?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Seek emergency medical care if you experience chest pain, shortness of breath, a high fever over 103°F (39.4°C), sudden explosive headaches, severe dehydration, or an inability to swallow liquids."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Announcement / Emergency Hotline Ribbon -->
+  <aside class="top-notice-bar" aria-label="Emergency Notice">
+    <div class="top-notice-container">
+      <div class="top-notice-left">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        <span>Public Health Portal: 24/7 Verified Evidence-Based Minor Illness Care Protocols</span>
+      </div>
+      <div class="top-notice-right">
+        <span>Medical Emergency? </span>
+        <a href="#emergencySection" class="emergency-pill" title="View Emergency Red Flags & Call Numbers">
+          <svg width="14" height="14" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"></path>
+          </svg>
+          <span>Call 911 / 112 Immediately</span>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header" role="banner">
+    <nav class="nav-container" aria-label="Main Navigation">
+      <a href="#hero" class="brand-logo" aria-label="WellPulse Home">
+        <div class="brand-icon-box" aria-hidden="true">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h4l3-8 4 16 3-8h4"></path>
+          </svg>
+        </div>
+        <div class="brand-text">Well<span>Pulse</span></div>
+      </a>
+
+      <ul class="nav-links" role="menubar">
+        <li role="none"><a href="#triageSection" class="nav-link" role="menuitem">Symptom Checker</a></li>
+        <li role="none"><a href="#encyclopediaSection" class="nav-link" role="menuitem">Minor Illnesses</a></li>
+        <li role="none"><a href="#nutritionSection" class="nav-link" role="menuitem">Food as Medicine</a></li>
+        <li role="none"><a href="#dosDontsSection" class="nav-link" role="menuitem">Do's & Don'ts</a></li>
+        <li role="none"><a href="#toolsSection" class="nav-link" role="menuitem">Health Tools</a></li>
+        <li role="none"><a href="#emergencySection" class="nav-link" role="menuitem">Emergency Care</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Dark / Light Theme Toggle Button -->
+        <button type="button" id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle Dark and Light Mode" title="Toggle Theme">
+          <span id="themeIcon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <a href="#triageSection" class="btn-primary">
+          <span>Check Symptoms</span>
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+
+        <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open mobile navigation menu">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <a href="#triageSection" class="nav-link">Symptom Checker</a>
+    <a href="#encyclopediaSection" class="nav-link">Minor Illnesses</a>
+    <a href="#nutritionSection" class="nav-link">Food as Medicine</a>
+    <a href="#dosDontsSection" class="nav-link">Do's & Don'ts</a>
+    <a href="#toolsSection" class="nav-link">Health Calculators</a>
+    <a href="#emergencySection" class="nav-link">Emergency Red Flags</a>
+    <a href="#triageSection" class="btn-primary" style="margin-top: 1rem; width: 100%;">Start Symptom Triage</a>
+  </div>
+
+  <main id="main-content">
+    <!-- ==========================================
+         HERO SECTION (With Voice & Live Autocomplete)
+         ========================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <span class="badge-pill badge-primary hero-pill">
+              <span class="pulse-dot"></span>
+              Verified Public Wellbeing Portal
+            </span>
+            <h1 class="hero-title">
+              Upload Your Symptoms, Receive <span class="gradient-text">Safe Cures, Diet & Care.</span>
+            </h1>
+            <p class="hero-description">
+              Feeling unwell? Describe or upload your illness to receive instant evidence-based guidance: safe OTC medicines, exact foods to eat and avoid, and essential recovery do's and don'ts.
+            </p>
+          </div>
+
+          <!-- Hero Search & Voice Bar (Inspired by Image 1 & 3) -->
+          <div class="hero-search-wrapper">
+            <div class="hero-search-bar">
+              <svg class="search-icon-svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input 
+                type="text" 
+                id="heroSearchInput" 
+                class="hero-search-input" 
+                placeholder="Search symptoms (e.g. fever, headache, acid reflux, sore throat)..." 
+                aria-label="Search symptoms or illness"
+                autocomplete="off"
+              >
+              <div class="search-action-btns">
+                <button type="button" id="voiceSearchBtn" class="voice-btn" aria-label="Use voice search" title="Speak symptoms">
+                  <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                    <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                    <line x1="12" y1="19" x2="12" y2="23"></line>
+                    <line x1="8" y1="23" x2="16" y2="23"></line>
+                  </svg>
+                </button>
+                <a href="#triageSection" class="search-submit-btn" aria-label="Proceed to triage">
+                  <span>Triage</span>
+                  <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Autocomplete Suggestion Dropdown -->
+            <div id="searchDropdown" class="search-dropdown" role="listbox" aria-label="Symptom search results"></div>
+          </div>
+
+          <!-- Quick Symptom Tags (Inspired by Image 1 & 3) -->
+          <div class="hero-quick-tags">
+            <span class="quick-tag-label">Common Complaints:</span>
+            <button type="button" class="quick-tag-btn" data-symptom="Low-Grade Fever (<101°F)">🌡️ Fever</button>
+            <button type="button" class="quick-tag-btn" data-symptom="Forehead / Temple Headache">🤕 Headache</button>
+            <button type="button" class="quick-tag-btn" data-symptom="Sore / Scratchy Throat">🗣️ Sore Throat</button>
+            <button type="button" class="quick-tag-btn" data-symptom="Dry Persistent Cough">😷 Cough</button>
+            <button type="button" class="quick-tag-btn" data-symptom="Acid Reflux / Heartburn">🫀 Acid Reflux</button>
+            <button type="button" class="quick-tag-btn" data-symptom="Loose / Watery Stool">🤢 Stomach Bug</button>
+            <button type="button" class="quick-tag-btn" data-symptom="Stiff Neck / Trapezial Tightness">💆 Stiff Neck</button>
+            <button type="button" class="quick-tag-btn" data-symptom="General Exhaustion / Fatigue">🔋 Fatigue</button>
+          </div>
+
+          <!-- Public Health Trust Metrics -->
+          <div class="hero-metrics-bar">
+            <div class="metric-item">
+              <div class="metric-number">100%</div>
+              <div class="metric-label">Free Public Access</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-number">50+</div>
+              <div class="metric-label">Minor Illness Guides</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-number">200+</div>
+              <div class="metric-label">Diet & Food Interactions</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-number">0 sec</div>
+              <div class="metric-label">Private & No Data Stored</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         CORE INTERACTIVE SYMPTOM CHECKER & CARE PLAN
+         (Faithfully integrating user uploaded mockups)
+         ========================================== -->
+    <section class="section triage-section" id="triageSection">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="badge-pill badge-primary">Interactive Diagnostic Assistant</span>
+          <h2 class="section-title">Tell Us What's Going On Today</h2>
+          <p class="section-subtitle">
+            Select your symptoms, specify the affected body area, or upload a photo/note. Our clinical algorithms match your condition and generate your custom recovery roadmap.
+          </p>
+        </div>
+
+        <div class="triage-card">
+          <!-- Bot Avatar Bar (Inspired by MedBot & Clara in Mockups) -->
+          <div class="triage-header-tab">
+            <div class="triage-bot-info">
+              <div class="bot-avatar-circle" aria-hidden="true">WP</div>
+              <div>
+                <div class="bot-name">WellPulse Clinical Triage Assistant</div>
+                <div class="bot-status">
+                  <span class="pulse-dot"></span>
+                  <span>Active & Ready • Clinical Guidance Mode</span>
+                </div>
+              </div>
+            </div>
+            <div class="triage-secure-badge">
+              <svg width="14" height="14" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 1.944A11.954 11.954 0 012.166 5C2.056 5.649 2 6.319 2 7c0 5.225 3.34 9.67 8 11.317C14.66 16.67 18 12.225 18 7c0-.682-.057-1.35-.166-2.001A11.954 11.954 0 0110 1.944z" clip-rule="evenodd"></path>
+              </svg>
+              <span>100% Client-Side Privacy</span>
+            </div>
+          </div>
+
+          <div class="triage-body">
+            <!-- Mode Tabs: Symptom Cloud vs Upload File/Report -->
+            <div class="input-mode-tabs" role="tablist">
+              <button type="button" class="input-tab-btn active" data-mode="symptoms" role="tab" aria-selected="true">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                </svg>
+                <span>Select Symptoms & Body Area</span>
+              </button>
+              <button type="button" class="input-tab-btn" data-mode="upload" role="tab" aria-selected="false">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="17 8 12 3 7 8"></polyline>
+                  <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+                <span>Upload Report / Photo / Note</span>
+              </button>
+            </div>
+
+            <!-- Body Region Selector (Inspired by Image 2 Anatomical Mapper) -->
+            <div class="body-region-wrapper">
+              <div class="filter-heading">1. Filter by Body Area:</div>
+              <div class="body-region-grid">
+                <button type="button" class="region-chip active" data-region="all">🌐 All Regions</button>
+                <button type="button" class="region-chip" data-region="head">🧠 Head & Eyes</button>
+                <button type="button" class="region-chip" data-region="ent">🗣️ Throat & Sinus</button>
+                <button type="button" class="region-chip" data-region="digestive">🫀 Stomach & Gut</button>
+                <button type="button" class="region-chip" data-region="muscles">💪 Muscles & Back</button>
+                <button type="button" class="region-chip" data-region="systemic">🌡️ Fever & Whole Body</button>
+              </div>
+            </div>
+
+            <!-- Multi-Symptom Selection Cloud -->
+            <div id="symptomSelectionZone" class="symptom-selection-zone">
+              <div class="filter-heading">2. Tap to Add Your Symptoms:</div>
+              <div id="symptomsCloud" class="symptoms-cloud">
+                <!-- Dynamically populated by app.js -->
+              </div>
+            </div>
+
+            <!-- Upload Dropzone View (Optional Mode) -->
+            <div id="uploadDropzoneWrap" class="upload-dropzone-wrap">
+              <div class="dropzone-icon">
+                <svg width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                  <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path>
+                  <path d="M12 12v9"></path>
+                  <path d="m8 16 4-4 4 4"></path>
+                </svg>
+              </div>
+              <div class="dropzone-title">Drag & Drop Doctor's Note, Prescription or Symptom Photo</div>
+              <div class="dropzone-sub">Supports JPG, PNG, PDF (Up to 10MB). Text is parsed locally in your browser.</div>
+              <button type="button" class="btn-outline" style="margin-top: 0.5rem;" id="uploadDropzone">Browse Files</button>
+              <input type="file" id="medicalFileInput" accept="image/*,.pdf,.txt" style="display: none;">
+
+              <div id="filePreviewCard" class="file-preview-card">
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span style="font-size: 1.25rem;">📄</span>
+                  <span id="fileNameText" style="font-size: 0.875rem; font-weight: 600;">document.jpg</span>
+                </div>
+                <button type="button" id="removeFileBtn" class="remove-chip-btn" aria-label="Remove uploaded file">&times;</button>
+              </div>
+            </div>
+
+            <!-- Chosen Symptoms Tray (Inspired by Image 1) -->
+            <div class="chosen-tray">
+              <div class="tray-title">
+                <span>Symptoms Chosen</span>
+                <span id="chosenCountBadge" class="badge-pill badge-emerald" style="margin-bottom: 0;">0 Selected</span>
+              </div>
+              <div id="trayChipsWrap" class="tray-chips-wrap">
+                <span class="tray-empty-text">No symptoms selected yet. Tap the tags above, search, or click body areas.</span>
+              </div>
+            </div>
+
+            <!-- Clinical Context Questions (Inspired by Clara in Image 3) -->
+            <div class="triage-questions-grid">
+              <div class="question-group">
+                <label for="durationSelect">How long have you had these symptoms?</label>
+                <select id="durationSelect" class="question-select">
+                  <option value="under-24h">Under 24 hours</option>
+                  <option value="1-3-days" selected>1 to 3 days</option>
+                  <option value="4-7-days">4 to 7 days</option>
+                  <option value="over-1-week">Over a week</option>
+                </select>
+              </div>
+
+              <div class="question-group">
+                <label for="patternSelect">Pain / Discomfort Pattern:</label>
+                <select id="patternSelect" class="question-select">
+                  <option value="comes-and-goes" selected>Comes and goes (Intermittent)</option>
+                  <option value="constant">Constant, ongoing ache</option>
+                  <option value="worse-at-night">Significantly worse at night</option>
+                  <option value="worse-after-eating">Worse right after eating</option>
+                </select>
+              </div>
+
+              <div class="question-group">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                  <label for="severitySlider" style="margin-bottom: 0;">Severity Level:</label>
+                  <span id="severityValueLabel" style="font-size: 0.8125rem; font-weight: 700; color: var(--accent-primary);">Moderate (4-7)</span>
+                </div>
+                <div class="range-slider-wrap">
+                  <input type="range" id="severitySlider" class="range-slider" min="1" max="10" value="4">
+                  <div class="slider-labels">
+                    <span>Mild (1-3)</span>
+                    <span>Moderate (4-7)</span>
+                    <span>Severe (8-10)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Triage Submit Button & Reset -->
+            <div class="triage-submit-row">
+              <button type="button" id="resetTriageBtn" class="reset-triage-btn">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+                  <path d="M3 3v5h5"></path>
+                </svg>
+                <span>Reset All</span>
+              </button>
+
+              <button type="button" id="proceedTriageBtn" class="btn-proceed">
+                <span>PROCEED • Generate Care Plan</span>
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Analysis Animated State (Inspired by Image 3 "Analyzing...") -->
+            <div id="analysisOverlay" class="analysis-overlay">
+              <div class="analysis-spinner-box">
+                <div class="spinner-ring"></div>
+              </div>
+              <h3 class="analysis-title">Analyzing Your Symptoms...</h3>
+              <p id="analysisStepText" class="analysis-step-text">Cross-referencing triage database against clinical guidelines...</p>
+            </div>
+
+            <!-- ==========================================
+                 DYNAMIC CARE PLAN RESULT (The Core Output)
+                 ========================================== -->
+            <div id="carePlanResult" class="care-plan-result">
+              <div class="plan-header-banner">
+                <div class="plan-header-left">
+                  <div class="plan-title-tag">
+                    <span id="planConditionIcon" style="font-size: 1.25rem;">🤧</span>
+                    <span>Likely Assessment & Care Protocol</span>
+                  </div>
+                  <h3 id="planConditionTitle" class="condition-title">Common Cold (Viral Rhinopharyngitis)</h3>
+                  <p id="planConditionDesc" class="condition-description">
+                    A mild contagious viral infection affecting the upper respiratory tract, resolving spontaneously within 7 to 10 days.
+                  </p>
+                  <div style="margin-top: 0.75rem;">
+                    <span id="planSeverityBadge" class="badge-pill badge-primary">Mild (Self-Limiting)</span>
+                    <span class="badge-pill badge-emerald">Home Care Indicated</span>
+                  </div>
+                </div>
+
+                <div class="plan-header-actions">
+                  <button type="button" id="copyPlanBtn" class="action-tool-btn" title="Copy care plan to clipboard">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <span>Copy Summary</span>
+                  </button>
+                  <button type="button" id="printPlanBtn" class="action-tool-btn" title="Print or save as PDF">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                      <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                      <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                      <rect x="6" y="14" width="12" height="8"></rect>
+                    </svg>
+                    <span>Print Care Card</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- 4-Box Comprehensive Recovery Matrix -->
+              <div class="plan-grid">
+                <!-- 1. Prescribed / Safe OTC Medicines -->
+                <div class="plan-card-box">
+                  <div class="plan-card-header header-rx">
+                    <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                    <span>Prescribed OTC Medicines & Dosage</span>
+                  </div>
+                  <div class="plan-card-body" id="planRxList">
+                    <!-- Populated dynamically -->
+                  </div>
+                </div>
+
+                <!-- 2. What to Eat (Dietary Dos) -->
+                <div class="plan-card-box">
+                  <div class="plan-card-header header-eat">
+                    <span style="font-size: 1.15rem;">🥗</span>
+                    <span>What to Eat (Accelerate Recovery)</span>
+                  </div>
+                  <div class="plan-card-body protocol-list" id="planEatList">
+                    <!-- Populated dynamically -->
+                  </div>
+                </div>
+
+                <!-- 3. What NOT to Eat (Dietary Don'ts) -->
+                <div class="plan-card-box">
+                  <div class="plan-card-header header-avoid">
+                    <span style="font-size: 1.15rem;">🚫</span>
+                    <span>What NOT to Eat (Foods to Avoid)</span>
+                  </div>
+                  <div class="plan-card-body protocol-list" id="planAvoidList">
+                    <!-- Populated dynamically -->
+                  </div>
+                </div>
+
+                <!-- 4. What to Do & What NOT to Do (Habits) -->
+                <div class="plan-card-box">
+                  <div class="plan-card-header header-do">
+                    <span style="font-size: 1.15rem;">✅</span>
+                    <span>What to Do (Home Recovery Protocols)</span>
+                  </div>
+                  <div class="plan-card-body protocol-list" id="planDoList">
+                    <!-- Populated dynamically -->
+                  </div>
+                </div>
+
+                <!-- 5. What NOT to Do (Pitfalls & Contraindications) -->
+                <div class="plan-card-box" style="grid-column: 1 / -1;">
+                  <div class="plan-card-header header-dont">
+                    <span style="font-size: 1.15rem;">⚠️</span>
+                    <span>What NOT to Do (Critical Mistakes to Avoid)</span>
+                  </div>
+                  <div class="plan-card-body protocol-list" id="planDontList" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+                    <!-- Populated dynamically -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- Emergency Red Flags Warning for This Condition -->
+              <div class="emergency-callout">
+                <div class="emergency-icon">
+                  <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <div class="emergency-content">
+                  <h4>When to Seek Immediate Emergency Attention:</h4>
+                  <p id="planRedFlags">Fever exceeding 102.5°F (39.2°C) lasting over 72 hours, wheezing, severe ear pain, or symptoms worsening drastically after initially improving.</p>
+                </div>
+              </div>
+
+              <div class="medical-disclaimer-box">
+                <strong>Medical Notice:</strong> WellPulse is a public wellness and educational triage platform. It does not provide definitive medical diagnoses or prescribe controlled prescription substances. Always consult a licensed pharmacist or physician for personalized medical advice. If you experience crushing chest pain, difficulty breathing, or severe trauma, call emergency services immediately.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         MINOR ILLNESS DIRECTORY & ENCYCLOPEDIA
+         ========================================== -->
+    <section class="section encyclopedia-section" id="encyclopediaSection">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="badge-pill badge-primary">Comprehensive Health Library</span>
+          <h2 class="section-title">Common Minor Illnesses Directory</h2>
+          <p class="section-subtitle">
+            Explore clinically reviewed self-care protocols for the most common minor conditions. Click any condition to instantly inspect safe medicines, food guides, and recovery timelines.
+          </p>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="encyclopedia-filter-bar" role="tablist">
+          <button type="button" class="filter-btn active" data-category="all">All Conditions (8)</button>
+          <button type="button" class="filter-btn" data-category="respiratory">Respiratory & ENT</button>
+          <button type="button" class="filter-btn" data-category="digestive">Digestive & Gut</button>
+          <button type="button" class="filter-btn" data-category="pain">Headache & Muscular</button>
+          <button type="button" class="filter-btn" data-category="allergy">Allergies</button>
+          <button type="button" class="filter-btn" data-category="general">Sleep & Heat</button>
+        </div>
+
+        <!-- Illness Cards Grid -->
+        <div class="illness-grid" id="illnessGrid">
+          <!-- Dynamically populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         "FOOD AS MEDICINE" NUTRITION MATRIX
+         ========================================== -->
+    <section class="section nutrition-section" id="nutritionSection">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="badge-pill badge-emerald">Therapeutic Nutrition</span>
+          <h2 class="section-title">Food as Medicine: What to Eat & What NOT to Eat</h2>
+          <p class="section-subtitle">
+            Nutritional intake during illness can either accelerate healing or inflame tissues. Select an illness below to see its exact culinary roadmap.
+          </p>
+        </div>
+
+        <!-- Selector Bar -->
+        <div class="nutrition-selector-bar">
+          <div class="nutrition-selector-left">
+            <span style="font-weight: 700; color: var(--text-main);">Viewing Sick-Day Diet for:</span>
+            <select id="nutritionConditionSelect" class="nutrition-dropdown">
+              <option value="common-cold">Common Cold & Upper Respiratory</option>
+              <option value="acid-reflux">Acid Reflux & Heartburn (GERD)</option>
+              <option value="gastroenteritis">Acute Gastroenteritis (Stomach Bug)</option>
+              <option value="tension-headache">Tension Headache & Dehydration</option>
+              <option value="allergic-rhinitis">Seasonal Allergic Rhinitis (Hay Fever)</option>
+              <option value="sore-throat">Acute Sore Throat & Pharyngitis</option>
+              <option value="musculoskeletal-strain">Muscle Strain & Back Stiffness</option>
+              <option value="heat-exhaustion">Heat Exhaustion & Mild Dehydration</option>
+              <option value="mild-insomnia">Mild Insomnia & Sleep Disruption</option>
+            </select>
+          </div>
+          <span id="matrixConditionName" class="badge-pill badge-primary" style="margin-bottom: 0;">Common Cold (Viral Rhinopharyngitis)</span>
+        </div>
+
+        <!-- 2-Column Food Grid -->
+        <div class="nutrition-grid">
+          <!-- Column 1: What to Eat -->
+          <div class="nutrition-column-card">
+            <div class="nutrition-col-header nutrition-eat-header">
+              <span style="font-size: 1.25rem;">🥗</span>
+              <span>Foods to Eat (Healing & Easy to Digest)</span>
+            </div>
+            <div class="nutrition-food-list" id="nutritionEatList">
+              <!-- Populated dynamically -->
+            </div>
+          </div>
+
+          <!-- Column 2: What to Avoid -->
+          <div class="nutrition-column-card">
+            <div class="nutrition-col-header nutrition-avoid-header">
+              <span style="font-size: 1.25rem;">🚫</span>
+              <span>Foods to Strictly Avoid (Triggers & Irritants)</span>
+            </div>
+            <div class="nutrition-food-list" id="nutritionAvoidList">
+              <!-- Populated dynamically -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Universal Sick-Day Nutrition Golden Rules -->
+        <div class="universal-nutrition-tips">
+          <h4 style="font-size: 1.15rem; font-weight: 800; color: var(--text-main);">Universal Sick-Day Dietary Golden Rules</h4>
+          <div class="universal-tips-grid">
+            <div class="universal-tip-card">
+              <div class="tip-number">1</div>
+              <div class="tip-content">
+                <h6>Hydrate with Electrolytes</h6>
+                <p>Water alone isn't enough when sweating or experiencing digestive upset; include trace sodium, potassium, and magnesium.</p>
+              </div>
+            </div>
+
+            <div class="universal-tip-card">
+              <div class="tip-number">2</div>
+              <div class="tip-content">
+                <h6>Bland Carbohydrates First</h6>
+                <p>When the digestive tract is strained, prioritize white rice, oats, crackers, and bananas to prevent gastric workload.</p>
+              </div>
+            </div>
+
+            <div class="universal-tip-card">
+              <div class="tip-number">3</div>
+              <div class="tip-content">
+                <h6>Zero Ultra-Processed Fats</h6>
+                <p>Deep-fried vegetable oils spark arachidonic inflammatory cascades that prolong recovery and delay stomach emptying.</p>
+              </div>
+            </div>
+
+            <div class="universal-tip-card">
+              <div class="tip-number">4</div>
+              <div class="tip-content">
+                <h6>Cut Concentrated Sugar</h6>
+                <p>Excess sucrose and high-fructose syrups suppress phagocytic white blood cell activity for up to 4 hours after ingestion.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         GOLDEN DO'S & DON'TS COMPARISON
+         ========================================== -->
+    <section class="section dos-donts-section" id="dosDontsSection">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="badge-pill badge-primary">Essential Health Habits</span>
+          <h2 class="section-title">The Public Wellbeing Do's & Don'ts</h2>
+          <p class="section-subtitle">
+            Simple, high-impact behaviors that dramatically shorten recovery times and safeguard your family and community from cross-infection.
+          </p>
+        </div>
+
+        <div class="rules-compare-grid">
+          <!-- DO Column -->
+          <div class="rules-column">
+            <div class="rules-header rules-header-do">
+              <h3 style="font-size: 1.35rem; font-weight: 800; display: flex; align-items: center; gap: 0.5rem;">
+                <span>✓</span>
+                <span>WHAT TO DO (Proven Best Practices)</span>
+              </h3>
+            </div>
+            <div class="rules-list">
+              <div class="rule-item">
+                <div class="rule-icon-box rule-icon-check">✓</div>
+                <div class="rule-text">
+                  <h5>Prioritize Unbroken Stage-3 & REM Sleep</h5>
+                  <p>During deep sleep, your bone marrow and spleen release defensive cytokines. Strive for 8 to 10 hours in a dark, quiet room.</p>
+                </div>
+              </div>
+
+              <div class="rule-item">
+                <div class="rule-icon-box rule-icon-check">✓</div>
+                <div class="rule-text">
+                  <h5>Monitor Vitals & Maintain a Temperature Log</h5>
+                  <p>Check oral or tympanic temperature twice daily. Document exact hours and values in case a clinical consultation becomes necessary.</p>
+                </div>
+              </div>
+
+              <div class="rule-item">
+                <div class="rule-icon-box rule-icon-check">✓</div>
+                <div class="rule-text">
+                  <h5>Use Saline Mists & Warm Saltwater Gargles</h5>
+                  <p>Physical hypertonic rinses draw water out of edematous inflamed mucous membranes and flush out viral debris naturally.</p>
+                </div>
+              </div>
+
+              <div class="rule-item">
+                <div class="rule-icon-box rule-icon-check">✓</div>
+                <div class="rule-text">
+                  <h5>Read OTC Drug Labels for Single vs. Multi-Action</h5>
+                  <p>Check active ingredients carefully. If taking a cough syrup with acetaminophen, do not take separate paracetamol pills.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DON'T Column -->
+          <div class="rules-column">
+            <div class="rules-header rules-header-dont">
+              <h3 style="font-size: 1.35rem; font-weight: 800; display: flex; align-items: center; gap: 0.5rem;">
+                <span style="color: #ef4444;">✕</span>
+                <span>WHAT NOT TO DO (Common Pitfalls)</span>
+              </h3>
+            </div>
+            <div class="rules-list">
+              <div class="rule-item">
+                <div class="rule-icon-box rule-icon-cross">✕</div>
+                <div class="rule-text">
+                  <h5>DO NOT Demand Antibiotics for Viral Infections</h5>
+                  <p>Antibiotics attack bacterial cell walls; they have zero effect on common cold, flu, or viral sore throats and damage gut microflora.</p>
+                </div>
+              </div>
+
+              <div class="rule-item">
+                <div class="rule-icon-box rule-icon-cross">✕</div>
+                <div class="rule-text">
+                  <h5>DO NOT Perform Strenuous High-Intensity Workouts</h5>
+                  <p>The "sweat it out" gym myth is dangerous. Intense physical exertion elevates cortisol and diverts metabolic resources from immune repair.</p>
+                </div>
+              </div>
+
+              <div class="rule-item">
+                <div class="rule-icon-box rule-icon-cross">✕</div>
+                <div class="rule-text">
+                  <h5>DO NOT Take NSAIDs on an Empty Stomach</h5>
+                  <p>Ibuprofen, aspirin, and naproxen inhibit protective gastric prostaglandins. Always ingest with meals to avoid gastric ulcers.</p>
+                </div>
+              </div>
+
+              <div class="rule-item">
+                <div class="rule-icon-box rule-icon-cross">✕</div>
+                <div class="rule-text">
+                  <h5>DO NOT Mask High-Risk Symptoms with Excess Painkillers</h5>
+                  <p>If fever or pain spikes despite scheduled analgesics, do not double the dose. Contact a physician immediately.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         INTERACTIVE HEALTH TOOLS (Hydration & Fever)
+         ========================================== -->
+    <section class="section tools-section" id="toolsSection">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="badge-pill badge-primary">Self-Care Utilities</span>
+          <h2 class="section-title">Interactive Health Calculators</h2>
+          <p class="section-subtitle">
+            Evidence-based tools to accurately determine your sick-day hydration needs and assess body temperature severity.
+          </p>
+        </div>
+
+        <div class="tools-grid">
+          <!-- 1. Daily Sick-Day Hydration Calculator -->
+          <div class="tool-card">
+            <div class="tool-header">
+              <div class="tool-icon">💧</div>
+              <div>
+                <h3 class="tool-title">Daily Hydration Target Calculator</h3>
+                <p class="tool-desc">Accounts for body mass, ambient activity, and active fever fluid losses.</p>
+              </div>
+            </div>
+
+            <div class="calc-form-group">
+              <label for="calcWeight">Your Body Weight (kg):</label>
+              <input type="number" id="calcWeight" class="calc-input" value="70" min="20" max="250">
+            </div>
+
+            <div class="calc-form-group">
+              <label for="calcActivity">Daily Activity / Ambient Warmth:</label>
+              <select id="calcActivity" class="calc-input">
+                <option value="low" selected>Resting / Bedrest in cool room</option>
+                <option value="moderate">Light walking around home</option>
+                <option value="high">Warm room / Heavy sweating</option>
+              </select>
+            </div>
+
+            <div class="calc-form-group" style="display: flex; align-items: center; gap: 0.6rem; margin-top: 1rem;">
+              <input type="checkbox" id="calcFeverActive" style="width: 18px; height: 18px; accent-color: var(--accent-primary);">
+              <label for="calcFeverActive" style="margin-bottom: 0; font-size: 0.9rem; cursor: pointer;">
+                I currently have a mild fever (adds +500 ml compensation)
+              </label>
+            </div>
+
+            <div class="calc-result-display">
+              <div style="font-size: 0.8125rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Recommended Daily Intake:</div>
+              <div id="calcWaterResult" class="calc-metric-val">2.5 Liters / Day</div>
+              <div id="calcCupsResult" class="calc-metric-sub">(~10 glasses of 240 ml)</div>
+            </div>
+          </div>
+
+          <!-- 2. Body Temperature & Fever Evaluator -->
+          <div class="tool-card">
+            <div class="tool-header">
+              <div class="tool-icon">🌡️</div>
+              <div>
+                <h3 class="tool-title">Fever Assessment & Converter</h3>
+                <p class="tool-desc">Convert between °F and °C and receive instant triage classification.</p>
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 1rem;">
+              <div class="calc-form-group">
+                <label for="calcTemp">Thermometer Reading:</label>
+                <input type="number" id="calcTemp" class="calc-input" value="99.8" step="0.1" min="90" max="110">
+              </div>
+
+              <div class="calc-form-group">
+                <label for="calcTempUnit">Unit:</label>
+                <select id="calcTempUnit" class="calc-input">
+                  <option value="F" selected>°F (Fahrenheit)</option>
+                  <option value="C">°C (Celsius)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="calc-result-display">
+              <div style="font-size: 0.8125rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Classification & Guidance:</div>
+              <div id="feverStatusDisplay" class="calc-metric-val" style="font-size: 1.4rem; margin-top: 0.35rem;">
+                <span style="color: #f59e0b;">Low-Grade / Mild Fever (99.8°F)</span>
+              </div>
+              <p id="feverAdviceDisplay" style="font-size: 0.8125rem; color: var(--text-secondary); margin-top: 0.5rem; line-height: 1.4;">
+                Natural immune response fighting pathogens. Rest, take small sips of fluids, and consider acetaminophen/ibuprofen if uncomfortable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         EMERGENCY RED FLAGS SECTION
+         ========================================== -->
+    <section class="section emergency-section" id="emergencySection">
+      <div class="container">
+        <div class="emergency-banner-box">
+          <div class="emergency-grid">
+            <div class="emergency-left">
+              <span class="badge-pill badge-coral" style="margin-bottom: 0.75rem;">Urgent Safety Alert</span>
+              <h3>When It Is NOT a Minor Illness: Emergency Triage</h3>
+              <p>
+                If you or a loved one experience any of the warning signs on the right, DO NOT attempt home care. Contact local emergency medical services or head immediately to the nearest Emergency Department.
+              </p>
+              
+              <div class="emergency-numbers-row">
+                <a href="tel:911" class="call-badge">
+                  <span>🚨 USA / Canada: 911</span>
+                </a>
+                <a href="tel:112" class="call-badge">
+                  <span>🚨 Europe / India: 112</span>
+                </a>
+                <a href="tel:999" class="call-badge">
+                  <span>🚨 UK: 999</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="danger-signs-list">
+              <div class="danger-sign-item">
+                <span style="color: #ef4444; font-size: 1.25rem;">⚠️</span>
+                <span>Crushing, heavy chest pain or pressure radiating to arm, back, or jaw.</span>
+              </div>
+              <div class="danger-sign-item">
+                <span style="color: #ef4444; font-size: 1.25rem;">⚠️</span>
+                <span>Severe shortness of breath, struggling to finish a sentence, or blue lips.</span>
+              </div>
+              <div class="danger-sign-item">
+                <span style="color: #ef4444; font-size: 1.25rem;">⚠️</span>
+                <span>Sudden onset of explosive headache ("thunderclap") or confusion / slurred speech.</span>
+              </div>
+              <div class="danger-sign-item">
+                <span style="color: #ef4444; font-size: 1.25rem;">⚠️</span>
+                <span>High fever over 103°F (39.4°C) with neck stiffness and sensitivity to light.</span>
+              </div>
+              <div class="danger-sign-item">
+                <span style="color: #ef4444; font-size: 1.25rem;">⚠️</span>
+                <span>Vomiting blood, passing black tarry stools, or inability to keep fluids down for 24+ hours.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       SITE FOOTER
+       ========================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo" style="margin-bottom: 0.75rem;">
+            <div class="brand-icon-box" style="width: 32px; height: 32px;">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h4l3-8 4 16 3-8h4"></path>
+              </svg>
+            </div>
+            <span style="color: #ffffff;">Well<span style="color: var(--accent-primary);">Pulse</span></span>
+          </div>
+          <p>
+            An open-access public health and wellbeing portal dedicated to empowering individuals with evidence-based minor illness care, OTC guidance, therapeutic diet protocols, and health literacy.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Quick Navigation</h5>
+          <ul class="footer-links">
+            <li><a href="#hero">Home & Search</a></li>
+            <li><a href="#triageSection">Symptom Checker</a></li>
+            <li><a href="#encyclopediaSection">Illness Directory</a></li>
+            <li><a href="#nutritionSection">Food as Medicine</a></li>
+            <li><a href="#dosDontsSection">Do's & Don'ts</a></li>
+            <li><a href="#toolsSection">Health Calculators</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Clinical Resources</h5>
+          <ul class="footer-links">
+            <li><a href="#emergencySection">Emergency Red Flags</a></li>
+            <li><a href="#nutritionSection">Hydration & Electrolytes</a></li>
+            <li><a href="#triageSection">Safe OTC Medicines</a></li>
+            <li><a href="https://www.who.int" target="_blank" rel="noopener">World Health Organization</a></li>
+            <li><a href="https://www.cdc.gov" target="_blank" rel="noopener">CDC Public Guidelines</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col newsletter-box">
+          <h5>Public Health Bulletins</h5>
+          <p>Subscribe for seasonal wellness advisories, allergy alerts, and public health updates.</p>
+          <form id="newsletterForm" class="newsletter-input-group">
+            <input type="email" class="newsletter-input" placeholder="Your email address" required aria-label="Email for health bulletin">
+            <button type="submit" class="btn-primary" style="padding: 0.6rem 1rem; border-radius: var(--radius-md);">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer-legal">
+        <strong>MEDICAL DISCLAIMER:</strong> The content provided on WellPulse is compiled from reputable clinical public health resources for general informational and educational purposes only. It is NOT intended to be a substitute for professional medical advice, diagnosis, or treatment. Never disregard professional medical advice or delay seeking it because of something you have read on this website. In the event of a medical emergency, immediately call your local emergency services (911, 112, 999) or visit the nearest emergency facility.
+      </div>
+
+      <div class="footer-bottom-row">
+        <div>&copy; 2026 WellPulse Public Wellbeing Project. All rights reserved. Built with semantic HTML5, modern CSS, and vanilla JavaScript.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#" style="color: #64748b;">Privacy Notice</a>
+          <a href="#" style="color: #64748b;">Terms of Service</a>
+          <a href="#" style="color: #64748b;">Accessibility (WCAG 2.1 AAA)</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container Root -->
+  <div id="toastContainer" class="toast-container" aria-live="polite"></div>
+
+  <!-- Vanilla JavaScript Application Script -->
+  <script src="js/app.js"></script>
+</body>
+</html>
